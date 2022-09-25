@@ -14,10 +14,10 @@ function getMaxLengthString(arrayOfString) {
     return undefined
   }
   // clear 1 array
-  if(arrayOfString.length == 1){
-    //console.log(arrayOfString)
-    return arrayOfString
-  }
+  // if(arrayOfString.length == 1){
+  //   //console.log(arrayOfString)
+  //   return arrayOfString
+  // }
   // 2
   else{
     arrayOfString.sort(function (a,b){
